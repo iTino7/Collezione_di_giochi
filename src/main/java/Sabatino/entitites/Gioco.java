@@ -44,6 +44,7 @@ public abstract class Gioco {
                 ", titolo='" + title + '\'' +
                 ", anno= " + year +
                 ", prezzo= " + price +
+                
                 "}";
     }
 
