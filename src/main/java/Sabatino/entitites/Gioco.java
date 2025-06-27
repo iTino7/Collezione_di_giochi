@@ -32,6 +32,7 @@ public abstract class Gioco {
     public void setPrice(double price) {
         if (price < 0) throw new IllegalArgumentException("Il prezzo deve essere positivo");
 
+
         this.price = price;
     }
 
@@ -44,7 +45,7 @@ public abstract class Gioco {
                 ", titolo='" + title + '\'' +
                 ", anno= " + year +
                 ", prezzo= " + price +
-                
+
                 "}";
     }
 
